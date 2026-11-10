@@ -7,5 +7,8 @@
 # You can then install it with VSCode, or by the CLI:
 # code --install-extension /path/to/VSCode-additional-icons.vsix
 
+# Could replace with JS script in package.json, see:
+# https://github.com/microsoft/vscode/blob/main/extensions/theme-seti/build/update-icon-theme.js
+
 npm install
 vsce package

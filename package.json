@@ -4,6 +4,8 @@
   "displayName": "%displayName%",
   "description": "%description%",
   "publisher": "Scimitaria",
+  "version": "0.1.0",
+  "license": "GPL-3.0",
   "icon": "icons/pl-icons.png",
   "engines": {
     "vscode": "*"
@@ -14,7 +16,7 @@
       {
         "id": "vs-seti",
         "label": "%themeLabel%",
-        "path": "./icons/vs-seti-icon-theme.json"
+        "path": "./theme/additional-icons-theme.json"
       }
     ]
   },
