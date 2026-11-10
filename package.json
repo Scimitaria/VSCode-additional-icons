@@ -1,14 +1,14 @@
 {
-  "name": "VSCode-additional-icons",
+  "name": "vscode-additional-icons",
   "private": true,
   "displayName": "%displayName%",
   "description": "%description%",
   "publisher": "Scimitaria",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "GPL-3.0",
   "icon": "theme/pl-icons.png",
   "engines": {
-    "vscode": "*"
+    "vscode": "^1.80.0"
   },
   "categories": ["Themes"],
   "contributes": {

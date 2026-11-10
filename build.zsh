@@ -12,3 +12,4 @@
 
 npm install
 vsce package
+code --install-extension vscode-additional-icons-0.1.0.vsix

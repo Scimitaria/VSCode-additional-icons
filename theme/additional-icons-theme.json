@@ -1,35 +1,62 @@
 {
     "iconDefinitions": {
-        "APL" : "./icons/APL.svg",
-        "AppleScript" : "./icons/AppleScript.svg",
-        "ActionScript" : "./icons/AS3.svg",
-        "Awk" : "./icons/Awk.svg",
-        "Binary" : "./icons/Binary.svg",
-        "COBOL" : "./icons/COBOL.svg",
-        "Hexadecimal" : "./icons/Hex.svg",
-        "HolyC" : "./icons/HolyC.svg",
-        "MIPS" : "./icons/MIPS.svg",
-        "SQL" : "./icons/SQL.svg",
-        "VimScript" : "./icons/VimScript.svg",
-        "Visual Basic" : "./icons/VB.svg"  
+        "_file": {
+            "iconPath": "../icons/default.svg"
+        },
+        "APL": {
+            "iconPath": "../icons/APL.svg"
+        },
+        "AppleScript": {
+            "iconPath": "../icons/AppleScript.svg"
+        },
+        "ActionScript": {
+            "iconPath": "../icons/AS3.svg"
+        },
+        "Awk": {
+            "iconPath": "../icons/Awk.svg"
+        },
+        "Binary": {
+            "iconPath": "../icons/Binary.svg"
+        },
+        "COBOL": {
+            "iconPath": "../icons/COBOL.svg"
+        },
+        "Hexadecimal": {
+            "iconPath": "../icons/Hex.svg"
+        },
+        "HolyC": {
+            "iconPath": "../icons/HolyC.svg"
+        },
+        "MIPS": {
+            "iconPath": "../icons/MIPS.svg"
+        },
+        "SQL": {
+            "iconPath": "../icons/SQL.svg"
+        },
+        "VimScript": {
+            "iconPath": "../icons/VimScript.svg"
+        },
+        "Visual Basic": {
+            "iconPath": "../icons/VB.svg"
+        }
     },
+    "file": "_file",
     "fileExtensions": {
-        "apl" : "APL",
-        "applescript" : "AppleScript",
-        "as" : "ActionScript",
-        "fla" : "ActionScript",
-        "awk" : "Awk",
-        "bin" : "Binary",
-        "cbl" : "COBOL",
-        "cobol" : "COBOL",
-        "hex" : "Hexadecimal",
-        "HC" : "HolyC",
-        "HH" : "HolyC",
-        "mips" : "MIPS",
-        "sql" : "SQL",
-        "vim" : "VimScript",
-        "vb" : "Visual Basic",
-        "vbas" : "Visual Basic"
+        "apl": "APL",
+        "applescript": "AppleScript",
+        "as": "ActionScript",
+        "fla": "ActionScript",
+        "awk": "Awk",
+        "bin": "Binary",
+        "cbl": "COBOL",
+        "cobol": "COBOL",
+        "hex": "Hexadecimal",
+        "hc": "HolyC",
+        "hh": "HolyC",
+        "mips": "MIPS",
+        "sql": "SQL",
+        "vim": "VimScript",
+        "vb": "Visual Basic",
+        "vba": "Visual Basic"
     }
-
 }
