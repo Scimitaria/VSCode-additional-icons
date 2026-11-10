@@ -10,6 +10,16 @@
 # Could replace with JS script in package.json, see:
 # https://github.com/microsoft/vscode/blob/main/extensions/theme-seti/build/update-icon-theme.js
 
+rm *.vsix
 npm install
 vsce package
-code --install-extension vscode-additional-icons-0.1.0.vsix
+
+while IFS= read -r line; do
+    if [[ "$line" =~ "\"version\": \"([0-9]+.[0-9]+.[0-9]+)\"" ]]; then
+        version="$match[1]"
+        code --install-extension "vscode-additional-icons-$version.vsix"
+        exit
+    fi
+done < package.json
+
+print "ERROR: version not found in package.json!" >&2
