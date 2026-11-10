@@ -6,7 +6,7 @@
   "publisher": "Scimitaria",
   "version": "0.1.0",
   "license": "GPL-3.0",
-  "icon": "icons/pl-icons.png",
+  "icon": "theme/pl-icons.png",
   "engines": {
     "vscode": "*"
   },
@@ -14,7 +14,7 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "vs-seti",
+        "id": "additional-icons",
         "label": "%themeLabel%",
         "path": "./theme/additional-icons-theme.json"
       }
